@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- animate.css -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <!-- css files -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- font-awsome-cdn -->
+  <script src="https://kit.fontawesome.com/2d068f38d7.js" crossorigin="anonymous"></script>
+
+  <title>Music Player</title>
+</head>
+<body>
+  <nav id = "navbar">
+    <div id="leftside">
+      <div id = "nav-icon">
+        <img src="images/nav-icon.png" alt="Music Player Icon">
+      </div>
+      <div class = "nav-icon-text">
+        <p>Favourites</p>
+      </div>
+    </div>
+
+    <div id="rightside">
+      <div id = "search-bar">
+        <form class="serach-bar-flex" action="index.html" method="post">
+          <button type="serch" name="button"><i class="fas fa-search"></i></button>
+          <input type="text" name="serach" value="" placeholder="Serach">
+          <button type="listen" name="button"><i class="fas fa-microphone"></i></button>
+        </form>
+      </div>
+      <div id = "notification-bell">
+        <i class="fas fa-bell"></i>
+      </div>
+      <div id = "user-img">
+        <img src="images/User.jpeg" alt="user-information">
+      </div>
+    </div>
+
+  </nav>
+
+  <div id = "container">
+
+      <div class="main">
+        <section id = "carousel-container">
+
+          <div class = "img-slider">
+            <img src="images/song1.jpg" alt="song1">
+          </div>
+          <div class = "img-slider">
+            <img src="images/song2.jpg" alt="song2">
+          </div>
+          <div class = "img-slider">
+            <img src="images/song3.jpg" alt="song3">
+          </div>
+
+
+        </section>
+
+        <section id = "latest-realise">
+          <h4 class = "header-h4">Latest Realise</h4>
+          <div>
+            <div class = "latest-songs">
+              <div class = "song-container">
+                <div class = "songs">
+                  <div class="play-icon">
+                    <i class="fas fa-play"></i>
+                  </div>
+                  <img src="images/latestsong1.png" alt="latestsong1">
+                </div>
+                <div class = "song-description">
+                  <h4>Onism</h4>
+                  <p>AUG 11, 2017</p>
+                </div>
+              </div>
+              <div class = "song-description-menu">
+                <div>
+                  <a><i class="fas fa-ellipsis-h"></i></a>
+                  <div class = "dropdown animate__animated animate__zoomInLeft">
+                    <ul class = "drop-down-list">
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-play"></i>
+                          <p>Play Now</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-plus"></i>
+                          <p>Add To Queue</p>
+                        </div>
+
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-plus-circle"></i>
+                          <p>Add to Favourites</p>
+                        </div>
+
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-info-circle"></i>
+                          <p>Get Information</p>
+                        </div>
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <p>4:44</p>
+
+
+            </div>
+            </div>
+            <div class = "latest-songs">
+              <div class = "song-container">
+                <div class = "songs">
+                  <div class="play-icon">
+                    <i class="fas fa-play"></i>
+                  </div>
+                  <img src="images/latestsong2.png" alt="latestsong1">
+                </div>
+                <div class = "song-description">
+                  <h4>Onism</h4>
+                  <p>AUG 11, 2017</p>
+                </div>
+              </div>
+              <div class = "song-description-menu">
+                <div>
+                  <a><i class="fas fa-ellipsis-h"></i></a>
+                  <div class = "dropdown animate__animated animate__zoomInLeft">
+                    <ul class = "drop-down-list">
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-play"></i>
+                          <p>Play Now</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-plus"></i>
+                          <p>Add To Queue</p>
+                        </div>
+
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-plus-circle"></i>
+                          <p>Add to Favourites</p>
+                        </div>
+
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-info-circle"></i>
+                          <p>Get Information</p>
+                        </div>
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <p>4:44</p>
+
+
+            </div>
+
+            </div>
+            <div class = "latest-songs">
+              <div class = "song-container">
+                <div class = "songs">
+                  <div class="play-icon">
+                    <i class="fas fa-play"></i>
+                  </div>
+                  <img src="images/latestsong3.png" alt="latestsong1">
+                </div>
+                <div class = "song-description">
+                  <h4>Onism</h4>
+                  <p>AUG 11, 2017</p>
+                </div>
+              </div>
+              <div class = "song-description-menu">
+                <div>
+                  <a><i class="fas fa-ellipsis-h"></i></a>
+                  <div class = "dropdown animate__animated animate__zoomInLeft">
+                    <ul class = "drop-down-list">
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-play"></i>
+                          <p>Play Now</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-plus"></i>
+                          <p>Add To Queue</p>
+                        </div>
+
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-plus-circle"></i>
+                          <p>Add to Favourites</p>
+                        </div>
+
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-info-circle"></i>
+                          <p>Get Information</p>
+                        </div>
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <p>4:44</p>
+
+
+            </div>
+            </div>
+            <div class = "latest-songs">
+              <div class = "song-container">
+                <div class = "songs">
+                  <div class="play-icon">
+                    <i class="fas fa-play"></i>
+                  </div>
+                  <img src="images/latestsong4..png" alt="latestsong1">
+                </div>
+                <div class = "song-description">
+                  <h4>Onism</h4>
+                  <p>AUG 11, 2017</p>
+                </div>
+              </div>
+              <div class = "song-description-menu">
+                <div>
+                  <a><i class="fas fa-ellipsis-h"></i></a>
+                  <div class = "dropdown animate__animated animate__zoomInLeft">
+                    <ul class = "drop-down-list">
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-play"></i>
+                          <p>Play Now</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-plus"></i>
+                          <p>Add To Queue</p>
+                        </div>
+
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-plus-circle"></i>
+                          <p>Add to Favourites</p>
+                        </div>
+
+                      </li>
+                      <li>
+                        <div class = "drop-down-content-border">
+                          <i class="fas fa-info-circle"></i>
+                          <p>Get Information</p>
+                        </div>
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <p>4:44</p>
+
+
+            </div>
+          </div>
+        </section>
+
+
+        <section id = "popular-artists">
+          <h4 class = "header-h4">Popular Artists</h4>
+          <div id = "popular-artists-container">
+            <div class = "artists-container">
+              <div class = "artists">
+                <div class="play-icon">
+                  <i class="fas fa-play"></i>
+                </div>
+                <img src="images/rahat.jpg" alt="Rahat fetah Ali khan">
+              </div>
+              <p>Rahat Khan</p>
+            </div>
+            <div class = "artists-container">
+              <div class = "artists">
+                <div class="play-icon">
+                  <i class="fas fa-play"></i>
+                </div>
+                <img src="images/atif.jpg" alt="Atif Aslam">
+              </div>
+              <p>Atif Aslam</p>
+            </div>
+          <div class = "artists-container">
+            <div class = "artists">
+              <div class="play-icon">
+                <i class="fas fa-play"></i>
+              </div>
+              <img src="images/arjeet.jpg" alt="Arjeet Singh">
+            </div>
+            <p>Arjeet Singh</p>
+          </div>
+            <div class = "artists-container">
+              <div class = "artists">
+                <div class="play-icon">
+                  <i class="fas fa-play"></i>
+                </div>
+                <img src="images/arman.jpg" alt="Arman">
+              </div>
+              <p>Arman Khan</p>
+            </div>
+            <div class = "artists-container">
+              <div class = "artists">
+                <div class="play-icon">
+                  <i class="fas fa-play"></i>
+                </div>
+                <img src="images/coldply.png" alt="coldply">
+              </div>
+              <p>ColdPlay</p>
+            </div>
+            <div class = "artists-container">
+              <div class = "artists">
+                <div class="play-icon">
+                  <i class="fas fa-play"></i>
+                </div>
+                <img src="images/zayan.webp" alt="Zayan">
+              </div>
+              <p>Zayan</p>
+            </div>
+          </div>
+
+        </section>
+
+
+
+        <section id = "music-stations">
+            <div id = "music-station-img">
+              <img src="images/station.png" alt="Music station">
+            </div>
+            <div class = "station-cataogories">
+              <img src="images/love.webp" alt="love music station">
+              <p>Love</p>
+            </div>
+            <div class = "station-cataogories">
+              <img src="images/retro.webp" alt="retro music station">
+              <p>Retro</p>
+            </div>
+            <div class = "station-cataogories">
+              <img src="images/chill.webp" alt="chill music station">
+              <p>Chill</p>
+            </div>
+            <div class = "station-cataogories">
+              <img src="images/workout.webp" alt="workout music station">
+              <p>Workout</p>
+            </div>
+            <div class = "station-cataogories">
+              <img src="images/rock.webp" alt="rock music station">
+              <p>Rock</p>
+            </div>
+            <div class = "station-cataogories">
+              <img src="images/pop.webp" alt="pop music station">
+              <p>Pop</p>
+            </div>
+        </section>
+
+
+        <section id = "music-catagory-station">
+          <div class = "music-type">
+            <div class = "music-img">
+              <img src="images/party.webp" alt="party music cataogory">
+            </div>
+            <p>Party</p>
+          </div>
+          <div class = "music-type middle-child">
+            <div class = "music-img">
+              <img src="images/electronic2.webp" alt="electronic music catagory">
+            </div>
+            <p>Electronic</p>
+          </div>
+          <div class = "music-type">
+            <div class = "music-img">
+              <img src="images/roadtrip.webp" alt="Road trip music">
+            </div>
+            <p>Roadtrip</p>
+          </div>
+        </section>
+
+
+
+        <section id = "latest-hindi-song">
+          <h4>Latest Hindi</h4>
+          <div id ="latest-hindi-song-container">
+            <div class = "latest-hindi-song-card">
+              <div class = "hind-song-img">
+                <img src="images/latest-hindi-songs1.jpg" alt="song1">
+              </div>
+              <h4>Barish</h4>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class = "latest-hindi-song-card">
+              <div class = "hind-song-img">
+                <img src="images/latest-hindi-song2.jpg" alt="song2">
+              </div>
+              <h4>Barish</h4>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class = "latest-hindi-song-card">
+              <div class = "hind-song-img">
+                <img src="images/latest-hindi-song3.jpg" alt="song3">
+              </div>
+              <h4>Barish</h4>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class = "latest-hindi-song-card">
+              <div class = "hind-song-img">
+                <img src="images/latest-hindi-songs1.jpg" alt="song1">
+              </div>
+              <h4>Barish</h4>
+              <p>AUG 11, 2017</p>
+            </div>
+          <div class = "latest-hindi-song-card">
+            <div class = "hind-song-img">
+              <img src="images/latest-hindi-song2.jpg" alt="song2">
+            </div>
+            <h4>Barish</h4>
+            <p>AUG 11, 2017</p>
+          </div>
+          <div class = "latest-hindi-song-card">
+            <div class = "hind-song-img">
+              <img src="images/latest-hindi-song3.jpg" alt="song3">
+            </div>
+            <h4>Barish</h4>
+            <p>AUG 11, 2017</p>
+          </div>
+
+          </div>
+        </section>
+
+        <section id = "latest-english-song">
+          <h4>Latest English</h4>
+          <div id ="latest-english-song-container">
+            <div class = "latest-hindi-song-card">
+              <div class = "hind-song-img">
+                <img src="images/latest-hindi-songs1.jpg" alt="song1">
+              </div>
+              <h4>Barish</h4>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class = "latest-hindi-song-card">
+              <div class = "hind-song-img">
+                <img src="images/latest-hindi-song2.jpg" alt="song2">
+              </div>
+              <h4>Barish</h4>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class = "latest-hindi-song-card">
+              <div class = "hind-song-img">
+                <img src="images/latest-hindi-song3.jpg" alt="song3">
+              </div>
+              <h4>Barish</h4>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class = "latest-hindi-song-card">
+              <div class = "hind-song-img">
+                <img src="images/latest-hindi-songs1.jpg" alt="song1">
+              </div>
+              <h4>Barish</h4>
+              <p>AUG 11, 2017</p>
+            </div>
+          <div class = "latest-hindi-song-card">
+            <div class = "hind-song-img">
+              <img src="images/latest-hindi-song2.jpg" alt="song2">
+            </div>
+            <h4>Barish</h4>
+            <p>AUG 11, 2017</p>
+          </div>
+          <div class = "latest-hindi-song-card">
+            <div class = "hind-song-img">
+              <img src="images/latest-hindi-song3.jpg" alt="song3">
+            </div>
+            <h4>Barish</h4>
+            <p>AUG 11, 2017</p>
+          </div>
+
+          </div>
+        </section>
+      </div>
+
+      <!-- <section>
+        <audio src="" >
+
+        </audio>
+      </section> -->
+      <section class = "music-queue-hamburger">
+        <i class="fas fa-bars"></i>
+        <div class="music-queue-hamburger-content animate__animated animate__zoomIn">
+          <div id = "header-music-queue">
+            <h1>Queue</h1>
+            <div class="dropdown1">
+              <p>Queue <i class="fas fa-caret-down"></i></p>
+              <div class = "dropdown dropdown-content">
+                <ul class = "drop-down-list">
+                  <li>
+                    <div class = "drop-down-content-border">
+                      <!-- <i class="fas fa-list-alt"></i> -->
+                      <p>Playlist</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class = "drop-down-content-border">
+                      <!-- <i class="fas fa-plus"></i> -->
+                      <p>Favourites Songs</p>
+                    </div>
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <div class = "music-queue-item">
+          <ol>
+            <li>
+              <div class = "music-song-des">
+                <p>01</p>
+                <div class = "queue-img">
+                  <img src="images/latestsong2.png" alt="">
+                </div>
+                <div class = "queue-content">
+                  <h3>Barish</h3>
+                  <p>Darshan</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+            <li>
+              <div class = "music-song-des">
+                <p>02</p>
+                <div class = "queue-img">
+                  <img src="images/latestsong4..png" alt="">
+                </div>
+                <div class = "queue-content">
+                  <h3>Bepanah</h3>
+                  <p>Arjeet</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+            <li>
+              <div class = "music-song-des">
+                <p>03</p>
+                <div class = "queue-img">
+                  <div class="queue-play-icon">
+                    <i class="fas fa-play"></i>
+                  </div>
+                  <img src="images/latestsong1.png" alt="">
+
+                </div>
+                <div class = "queue-content">
+                  <h3>Suroor</h3>
+                  <p>Himesh</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+            <li>
+              <div class = "music-song-des">
+                <p>04</p>
+                <div class = "queue-img">
+                  <img src="images/latest-hindi-song2.jpg" alt="">
+                </div>
+                <div class = "queue-content">
+                  <h3>Savan</h3>
+                  <p>Darshan</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+            <li>
+              <div class = "music-song-des">
+                <p>01</p>
+                <div class = "queue-img">
+                  <img src="images/latestsong2.png" alt="">
+                </div>
+                <div class = "queue-content">
+                  <h3>Barish</h3>
+                  <p>Darshan</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+            <li>
+              <div class = "music-song-des">
+                <p>02</p>
+                <div class = "queue-img">
+                  <img src="images/latestsong4..png" alt="">
+                </div>
+                <div class = "queue-content">
+                  <h3>Bepanah</h3>
+                  <p>Arjeet</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+            <li>
+              <div class = "music-song-des">
+                <p>03</p>
+                <div class = "queue-img">
+                  <img src="images/latestsong1.png" alt="">
+                </div>
+                <div class = "queue-content">
+                  <h3>Suroor</h3>
+                  <p>Himesh</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+            <li>
+              <div class = "music-song-des">
+                <p>04</p>
+                <div class = "queue-img">
+                  <img src="images/latest-hindi-song2.jpg" alt="">
+                </div>
+                <div class = "queue-content">
+                  <h3>Savan</h3>
+                  <p>Darshan</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+            <li>
+              <div class = "music-song-des">
+                <p>01</p>
+                <div class = "queue-img">
+                  <img src="images/latestsong2.png" alt="">
+                </div>
+                <div class = "queue-content">
+                  <h3>Barish</h3>
+                  <p>Darshan</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+            <li>
+              <div class = "music-song-des">
+                <p>02</p>
+                <div class = "queue-img">
+                  <img src="images/latestsong4..png" alt="">
+                </div>
+                <div class = "queue-content">
+                  <h3>Bepanah</h3>
+                  <p>Arjeet</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+            <li>
+              <div class = "music-song-des">
+                <p>03</p>
+                <div class = "queue-img">
+                  <img src="images/latestsong1.png" alt="">
+                </div>
+                <div class = "queue-content">
+                  <h3>Suroor</h3>
+                  <p>Himesh</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+            <li>
+              <div class = "music-song-des">
+                <p>04</p>
+                <div class = "queue-img">
+                  <img src="images/latest-hindi-song2.jpg" alt="">
+                </div>
+                <div class = "queue-content">
+                  <h3>Savan</h3>
+                  <p>Darshan</p>
+                </div>
+              </div>
+              <i class="far fa-heart fa-1x"></i>
+            </li>
+
+          </ol>
+          </div>
+        </div>
+      </section>
+
+    <!-- <section id = "music-player-bar">
+      <div class = "music-desc">
+        <div>
+          <img src="" alt="">
+        </div>
+          <i class="far fa-heart"></i>
+
+      </div>
+    </section> -->
+  </div>
+</body>
+</html>
