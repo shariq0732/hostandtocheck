@@ -758,7 +758,9 @@ body{
 
 	 #popular-artists-container{
 		flex-wrap: nowrap;
-		overflow-x: auto;
+		overflow-x: scroll;
+    		overflow-y: hidden;
+    		-webkit-overflow-scrolling: touch;
 	}
 	.artists-container{
 		padding: 10px;
